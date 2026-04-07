@@ -27,9 +27,9 @@ from mne.connectivity import spectral_connectivity as sc
 #   TAG          : Paradigm tag
 #       cropping the by the duration value)
 # -----------------------------------------------------------------------------
-PATH_DIR_SRC = 'D:/parenting/6.1 After ICA/clinical/mom_dad/FI_mom/'
-PATH_DIR_DEST = 'D:/parenting/8. Shuffle/shuffle 40 clinical mom/' ######## i fogot
-PATH_DURATION_CSV = 'D:/parenting/6.1 After ICA/clinical/mom_dad/min_times_after_ICA.xlsx'
+PATH_DIR_SRC = 'epochs after ICA/'
+PATH_DIR_DEST = 'path to surrogated connectivity/'
+PATH_DURATION_CSV = 'utility file.xlsx'     # the output from running ths file "first - minimum[...].py"
 
 # duration dictionary
 SBJ_COL_NAME = 'Subject_ID'

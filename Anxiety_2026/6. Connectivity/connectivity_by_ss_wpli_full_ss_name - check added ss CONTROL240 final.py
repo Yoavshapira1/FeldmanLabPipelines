@@ -6,16 +6,13 @@ from mne.connectivity import spectral_connectivity as sc
 import re
 
 # =========== USER CONFIGURATION ==========
-PATH_DIR_SRC = 'D:/parenting/6.1 After ICA/control/mom_dad/FI_dad/'
-PATH_DIR_DEST = 'D:/parenting/8.3 Shuffle240/real dad control/' ######## i fogot what it was before - change here
-PATH_DURATION_CSV = 'D:/parenting/6.1 After ICA/control/mom_dad/min_times_after_ICA.xlsx'
-#was just ica ver 4, not replication before
+PATH_DIR_SRC = 'epochs after ICA/'
+PATH_DIR_DEST = 'path to connectivity folder/'
+PATH_DURATION_CSV = 'utility file.xlsx'     # the output from running "first - minimumn[...].py"
 
 # duration dictionary
 SBJ_COL_NAME = 'Subject_ID'
 DUR_COL_NAME = 'min290' #
-
-#changes between "min_face_skype" for face/ skype or "minimum" for rest
 
 # offset configuration
 OFFSET_START = 2 #was 2

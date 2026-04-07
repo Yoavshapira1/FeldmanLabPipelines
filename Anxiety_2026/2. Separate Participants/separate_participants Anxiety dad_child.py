@@ -82,7 +82,6 @@ def separate_channels(in_path, out_path):
         os.chdir(os.path.dirname(__file__))
         os.chdir(in_path)
 if __name__ == "__main__":
-    IN_PATH = 'D:/Anxiety_exp/1. Interactions_cut/control/BE_dad/'
-    OUT_PATH = 'D:/Anxiety_exp/2. Interactions_seperated/control/'
-    #main(IN_PATH, OUT_PATH)
+    SRC_PATH = 'source folder with EEG files'
+    DEST_PATH = 'output folder'
     separate_channels(IN_PATH, OUT_PATH)

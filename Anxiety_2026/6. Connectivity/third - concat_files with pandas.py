@@ -4,7 +4,7 @@ import pandas as pd
 import re
 
 # Set working directory
-os.chdir('D:/parenting/8.2 Shuffle trimmed/real control dad/')
+os.chdir('path to connectivity folder/')
 
 # Get all CSV filenames in the directory
 extension = 'csv'

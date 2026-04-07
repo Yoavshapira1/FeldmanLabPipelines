@@ -34,9 +34,6 @@ def make_epochs(in_path, out_path):
 
 
 if __name__ == "__main__":
-    IN_PATH = 'D:/Anxiety_exp/2.1 Interactions_seperated_fixed/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/Epochs_seperated/'
-    OUT_PATH = 'D:/Anxiety_exp/3. Epochs/'
-
-#    OUT_PATH = 'C:/Users/Linoy/Dropbox/post/to_epochs/Epochs_ready/'
+    IN_PATH = 'source folder with raw files/'
+    OUT_PATH = 'output folder/'
     make_epochs(IN_PATH, OUT_PATH)

@@ -34,8 +34,6 @@ def save_figs(in_path, out_path):
         plt.close('all')
 
 if __name__ == "__main__":
-    IN_PATH =  'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/5. ICA/clinical/Triade_without/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/ica_components/'
-    OUT_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/5.1 ICA figs/clinical/Triades/Triade_without/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/ICA_fig/'
+    IN_PATH = 'output ICA folder/'
+    OUT_PATH = 'output ICA figures/'
     save_figs(IN_PATH, OUT_PATH)

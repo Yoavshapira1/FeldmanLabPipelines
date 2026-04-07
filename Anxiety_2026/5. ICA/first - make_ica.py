@@ -32,8 +32,6 @@ def make_ica_comp(in_path, out_path):
         os.chdir(in_path)
 
 if __name__ == "__main__":
-    IN_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/4. AR/control/FI dad + conflicts/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/Epochs_AR/'
-    OUT_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/5. ICA/control/FI dad + conflicts/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/ica_components/'
+    IN_PATH = 'epochs after AF/'
+    OUT_PATH = 'output ICA folder/'
     make_ica_comp(IN_PATH, OUT_PATH)

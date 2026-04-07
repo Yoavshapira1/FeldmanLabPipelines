@@ -59,16 +59,14 @@ def clean_ica_comp(in_path_epochs, in_path_ica, out_path, templates):
 
 
 if __name__ == "__main__":
-    IN_PATH_EPOCHS = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/4. AR/control/FI dad + conflicts/'
-    IN_PATH_ICA = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/5. ICA/control/FI_dad+conflicts/'
-    OUT_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/6.1 After ICA/control/FI_dad+conflicts/'
+    IN_PATH_EPOCHS = 'epochs after AR/'
+    IN_PATH_ICA = 'output ICA folder/'
+    OUT_PATH = 'epochs after ICA/'  # different from "IN_PATH_ICA"
     TEMPLATES = [('Family_44_1FI_mom_mother_AR_ica.fif', 1),
                  ('Family_T43_FI_mom_child_AR_ica.fif', 1), 
                 ('Family_T42_FI_mom_mother_AR_ica.fif', 2),
                 ('Family_T110FI_mom_child_AR_ica.fif', 1)]
                 
     clean_ica_comp(IN_PATH_EPOCHS, IN_PATH_ICA, OUT_PATH, TEMPLATES)
-    
-    # ('IV4641_080_Rest_child_ica.fif', 18)
     
 

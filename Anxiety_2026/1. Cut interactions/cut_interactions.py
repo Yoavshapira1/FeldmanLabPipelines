@@ -12,9 +12,9 @@ import os
 import pandas as pd
 
 
-outFolderName = "D:/Anxiety_exp/1. Interactions_cut/"  # output folder name
-inFolderPath = "D:/Anxiety_exp/Raw_data/"  # path to folder containing EEGraw and excel file
-excelName = "D:/Anxiety_exp/Cut_Interactions - Control - no notes.xlsx"
+outFolderName = 'output folder'
+inFolderPath = 'source folder with EEG files'
+excelName = "table with start and end time of each interaction.xlsx"
 
 # prep part
 os.chdir(inFolderPath)  # script dir is work dir

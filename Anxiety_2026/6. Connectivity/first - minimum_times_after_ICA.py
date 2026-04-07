@@ -25,8 +25,8 @@ src_folder
     .
     .
 '''
-SRC_FOLDER_PATH = 'D:/parenting/6.1 After ICA/control/mom_dad_analysis/'
-DEST_FOLDER_PATH = 'D:/parenting/6.1 After ICA/control/mom_dad_analysis/'  # output directory
+SRC_FOLDER_PATH = 'epochs after ICA'
+DEST_FOLDER_PATH = 'utility file location'  # the only output is a utility file
 
 
 ######## HELPER FUNCTIONS ####################

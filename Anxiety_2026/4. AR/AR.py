@@ -35,8 +35,6 @@ def autoreject_clean(in_path, out_path):
 
 
 if __name__ == "__main__":
-    IN_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/3. Epochs/Control/FI_dad + conflict child + conflict umbrella/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/Epochs_ready/'x
-    OUT_PATH = 'C:/Users/carme/Documents/Ruth Feldman LAB/anxiety experiment all/Linoys Analysis/4. AR/control/FI_dad + conflict child + conflict umbrella/'
-    #'C:/Users/Linoy/Dropbox/post/to_epochs/Epochs_AR/'
+    _PATH = 'source folder with raw files/'
+    OUT_PATH = 'output folder/'
     autoreject_clean(IN_PATH, OUT_PATH)
