@@ -14,4 +14,4 @@ The pipeline is divided into several phases, each handling a specific step in th
 
 ### Connectivity analysis:
 - **6. connectivity/**: Scripts for computing connectivity measures from clean epochs. Including 2 utilities scripts and a script for the connectivity computatiopn.
-- **7. create surrogate data/**: Scripts for creating surrogate connectivity data. Including 3 utilities and 1 computation script. 
+- **7. create surrogate data/**: Scripts for creating surrogate connectivity data
